@@ -8,28 +8,35 @@ Microsoft describes Python's ADAL (Active Directory Authentication Library) modu
 Note the use of the word "easier," and understand that 
 
 ### Python AAD Token Getter has two parts:
-#### It's Part Docs
+#### It's Part Docs _(see `docs/`)_
 Python AAD Token Getter is a guide (with lots of pictures.) It aims simplify the AAD app registration/authentication process, and to make clear exactly what needs to be done, and what you're doing.
-#### It's Part Tool
+#### It's Part Tool _(see `pymsaad/`)_
 Python AAD Token Getter obtains a generic authentication token from AAD using `adal` & saves it locally, allowing any application (not just python apps) to authenticate against your AAD tenant & access the data you specify. 
 
 
 !!!!!
 \<PICTURE OF AAD PORTAL\>
 !!!!!
-
+<br>
 ## Installation:
 
 This package isn't meant to be installed. Follow these steps:
 ```
 git clone https://github.com/rtruxal/pymsaad.git
 cd pymsaad
+pip install requirements.txt
 ```
-and follow the setup guide below.
+and you're done with installation.
+
+<br>
 
 ## Setup:
+Now for the tricky part. To keep things secure, the configuration of this application is highly setting up coupled to its corresponding AAD Enterprise Application registration.  
+Further, obtaining an adal token without setting up SSL would defeat the purpose of having security controls in the first place.  
 
-#### 1. Generate Local Certificates for End-to-End Encryption 
+Because of this, there's a good ammt of configuration involved. `pymsaad` aims to simplify configuration & registration as much as possible with simple but comprehensive documentation.
+
+#### [1. Generate Local Certificates for End-to-End Encryption](docs/1 - CERTIFICATES.md) 
 [content]
 
 #### 2. Register Your "Enterprise Application" via https://portal.azure.com

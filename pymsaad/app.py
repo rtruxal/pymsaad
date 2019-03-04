@@ -3,8 +3,8 @@ import adal
 import requests
 import os
 
-from get_aad_token.cfg import reg_info, SECRET_KEY, CERT_PEM_ABS_PATH, KEY_PEM_ABS_PATH
-from get_aad_token.util import get_rand_hex, save_token, VersionError
+from pymsaad.cfg import reg_info, SECRET_KEY, CERT_PEM_ABS_PATH, KEY_PEM_ABS_PATH
+from pymsaad.util import get_rand_hex, save_token, VersionError
 
 ########################################################################################################################
 # SET UP SOMEWHERE TO PUT THE TOKEN.  ##################################################################################

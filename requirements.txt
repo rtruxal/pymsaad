@@ -1,0 +1,6 @@
+python >= 3.4
+requests
+uuid
+flask
+adal
+pyopenssl

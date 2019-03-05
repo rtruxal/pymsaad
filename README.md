@@ -42,7 +42,7 @@ and you're done with installation.
 <br>
 
 ## Setup:
-Now for the tricky part. To keep things secure, the configuration of this application is highly setting up coupled to its corresponding AAD Enterprise Application registration.  
+Now for the tricky part. To keep things secure, the configuration of this application is highly coupled to its corresponding AAD Enterprise Application registration.  
 Further, obtaining an adal token without setting up SSL would defeat the purpose of having security controls in the first place.  
 
 Because of this, there's a good ammt of configuration involved. `pymsaad` aims to simplify configuration & registration as much as possible with simple but comprehensive documentation.

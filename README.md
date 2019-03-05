@@ -1,5 +1,11 @@
 pymsaad
 =======================
+
+### Important Note about PartnerCenter: 
+With a few changes, `pymsaad` can be used to integrate & authenticate with the [Microsoft PartnerCenter](https://partnercenter.microsoft.com), without having to use the C# SDK.  
+
+Please reach out to rtruxal2020 at outlook.com with any inquiries about getting your organization set up to use the Microsoft PartnerCenter API.
+
 ## Overview:
 If you're a python dev who integrates with Microsoft applications, you may be aware of how tricky it can be to authenticate with AAD. 
 This (poorly named) python package attempts to boil it down to the bare essentials.  

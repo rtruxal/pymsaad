@@ -6,7 +6,7 @@ With a few changes, `pymsaad` can be used to integrate & authenticate with the [
 
 Please reach out to rtruxal2020 at outlook.com with any inquiries about getting your organization set up to use the Microsoft PartnerCenter API.  
 
-<img align="center" width="255" height="255" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/cannot_get_github_to_put_these_in_line.png">  
+<img align="center" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/cannot_get_github_to_put_these_in_line.png">  
 
 
 ## Overview:

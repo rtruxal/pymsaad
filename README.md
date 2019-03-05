@@ -14,9 +14,9 @@ Microsoft describes Python's ADAL (Active Directory Authentication Library) modu
 While ADAL does make things easier, we are authenticating against an organizational tenant. You still need to understand what you are doing to prevent missuse of your application's permission scope. 
 
 
-<img align="left" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/aad.png">
-<img align="center" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/azure.png">
-<img align="right" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/python.png">
+<img align="left" width="255" height="255" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/aad.png">
+<img align="center" width="255" height="255" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/azure.png">
+<img align="right" width="255" height="255" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/python.png">
 
 ### pymsaad has two parts:
 #### It's Part Docs _(see `docs/`)_

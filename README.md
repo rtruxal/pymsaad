@@ -13,17 +13,15 @@ This (poorly named) python package attempts to boil it down to the bare essentia
 Microsoft describes Python's ADAL (Active Directory Authentication Library) module as a tool that ["makes authentication easier for developers"](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries)
 While ADAL does make things easier, we are authenticating against an organizational tenant. You still need to understand what you are doing to prevent missuse of your application's permission scope. 
 
- <div class="row">
   <div class="column">
-    <img width="255" height="255" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/aad.png" style="width:100%">
+    <img align="left" width="255" height="255" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/aad.png" style="width:100%">
   </div>
   <div class="column">
-    <img width="255" height="255" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/azure.png" style="width:100%">
+    <img align="center" width="255" height="255" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/azure.png" style="width:100%">
   </div>
   <div class="column">
-    <img width="255" height="255" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/python.png" style="width:100%">
+    <img align="right" width="255" height="255" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/python.png" style="width:100%">
   </div>
-</div> 
 
 
 ### pymsaad has two parts:

@@ -6,6 +6,9 @@ With a few changes, `pymsaad` can be used to integrate & authenticate with the [
 
 Please reach out to rtruxal2020 at outlook.com with any inquiries about getting your organization set up to use the Microsoft PartnerCenter API.
 
+<img align="center" width="255" height="255" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/cannot_get_github_to_put_these_in_line.png">
+
+
 ## Overview:
 If you're a python dev who integrates with Microsoft applications, you may be aware of how tricky it can be to authenticate with AAD. 
 This (poorly named) python package attempts to boil it down to the bare essentials.  
@@ -13,7 +16,6 @@ This (poorly named) python package attempts to boil it down to the bare essentia
 Microsoft describes Python's ADAL (Active Directory Authentication Library) module as a tool that ["makes authentication easier for developers"](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries)
 While ADAL does make things easier, we are authenticating against an organizational tenant. You still need to understand what you are doing to prevent missuse of your application's permission scope. 
 
-<img align="center" width="255" height="255" src="https://github.com/rtruxal/pymsaad/blob/master/docs/img/cannot_get_github_to_put_these_in_line.png">
 
 
 ### pymsaad has two parts:
